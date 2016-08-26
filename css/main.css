@@ -1,0 +1,54 @@
+body{
+	font-family: 'Roboto', sans-serif;	
+	color:grey; 
+}
+
+h3{
+	font-style: normal;
+}
+
+h5{
+	font-style: italic;
+}
+
+p{
+	font-style: black;
+	font-size: 12px;
+	padding: 5px;
+}
+
+
+.box{
+	float:left;
+	width: 210px;
+	height: 230px;
+	text-align: center;
+	margin-right: 10px;
+	background: #f6f4f4;
+	border-style: outset;
+	border: 1px solid #ebe6e6 ;
+	padding-top: 30px;
+}
+
+.icon{
+	font-size: 40px;
+	margin: auto;
+}
+
+span:hover{
+	font-size: 60px;
+	color: #ff0066;
+	transition: font-size 2s, color 1s;
+}	
+
+.box:hover{
+	height: 240px;
+	width: 220px;
+	transition: height 1s, width 1s;
+}
+
+p:hover{
+	color: #b30047;
+	transition: color 1s;
+}
+
