@@ -35,20 +35,30 @@ p{
 	margin: auto;
 }
 
-span:hover{
-	font-size: 60px;
-	color: #ff0066;
-	transition: font-size 2s, color 1s;
-}	
-
 .box:hover{
 	height: 240px;
 	width: 220px;
 	transition: height 1s, width 1s;
+
 }
 
-p:hover{
+.box:hover span{	
+	font-size: 60px;
+	color: #ff0066;
+	transition: font-size 2s, color 1s;
+}
+	
+.box:hover p{
 	color: #b30047;
 	transition: color 1s;
 }
+
+.box:hover h3{
+	color: #b30047;
+	transition: color 1s;
+}
+
+
+
+
 
